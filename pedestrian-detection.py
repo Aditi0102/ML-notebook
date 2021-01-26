@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 # Create our body classifier
-body_classifier = cv2.CascadeClassifier('/media/ritik/Data/Personal Work/ComputerVision-master/haarcascade-files/haarcascade_fullbody.xml')
+body_classifier = cv2.CascadeClassifier('/xml files/haarcascade_fullbody.xml')
 # Initiate video capture for video file
 cap = cv2.VideoCapture('/home/ritik/townset dataset/input_video_s2_l1_06.mp4')
 # Loop once video is successfully loaded
